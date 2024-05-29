@@ -20,7 +20,6 @@ $mark=$_POST['marks'];
  while($row=$stmt->fetch(PDO::FETCH_ASSOC))
  {
 
-    
 array_push($sid1,$row['id']);
    } 
   
